@@ -1,7 +1,6 @@
 import webpack from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import {BuildOptions} from "./types/config";
-import * as trace_events from "node:trace_events";
 
 export function buildLoders({isDev}: BuildOptions): webpack.RuleSetRule[] {
 
